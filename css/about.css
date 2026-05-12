@@ -1,0 +1,64 @@
+.storysec {
+    padding: 50px 200px;
+    background-color: #F8F3EF;
+}
+
+.story {
+    display: flex;
+    gap: 30px;
+    height: 500px;
+}
+
+.story-text {
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.story-text p {
+    text-align: justify;
+}
+
+.founder {
+    width: 50%;
+}
+
+.founder img {
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.whysec {
+    padding: 50px 100px;
+    background-color: #F8F3EF;
+}
+
+.why {
+    display: flex;
+    gap: 30px;
+}
+
+.reason {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 25%;
+}
+
+.reason-h {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.reasonicon {
+    color: #388E3C;
+    font-size: 30px;
+}
+
+.reason p {
+    font-weight: normal;
+    font-size: 14px;
+}

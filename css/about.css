@@ -62,3 +62,14 @@
     font-weight: normal;
     font-size: 14px;
 }
+
+@media screen and (max-width: 768px){
+   .whysec, .storysec{padding: 80px;}
+    .why,.story{flex-direction: column;height: 100%;}
+    .reason,.story-text{width: 100%;}
+    .founder{width: 100%;}
+}
+@media screen and (max-width: 480px){
+   .whysec, .storysec{padding: 40px;}
+
+}

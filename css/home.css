@@ -160,10 +160,14 @@ p {
   border-radius: 20px;
   border: 1px solid rgba(170, 157, 139, 0.582)
 }
+.issuediv{
 
-.hairissue {
   height: 100px;
   width: 220px;
+}
+
+.hairissue {
+height: 100%;width: 100%;
 }
 
 .second,
@@ -244,7 +248,7 @@ transform: scale(0.95);} */
 
 .fa-star {
   color: #FBC02D;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 
@@ -396,4 +400,14 @@ input {
     padding: 6px 10px;
   }
   .newsletter{padding: 0;border-left: transparent;}
+}
+
+@media screen and (max-width: 480px){
+  .issuediv{
+    width: 100%;
+  }
+  .problems, .products{
+    padding: 30px 40px;
+  }
+
 }

@@ -62,7 +62,7 @@
     font-weight: normal;
     font-size: 14px;
 }
-.gobackdiv{display: flex;justify-content: center;align-items: center;}
+.gobackdiv{display: flex;justify-content: center;align-items: center;padding: 20px;}
 @media screen and (max-width: 768px){
    .whysec, .storysec{padding: 80px;}
     .why,.story{flex-direction: column;height: 100%;}

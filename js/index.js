@@ -1,5 +1,13 @@
+//learn more button
+function gotoabout(){
+    window.location.href = `about.html?from=home`;
+}
+// suggested buttons js
+function gotoproducts(productId){
+      window.location.href = `products.html?highlight=${productId}`;
+}
 
-
+// popup js
 const aloeBtn = document.querySelector(".aloebu");
 const onionBtn = document.querySelector(".onionbu");
 const eggBtn = document.querySelector(".eggbu");

@@ -8,8 +8,12 @@
 .addbtn:hover .fa-bucket{color: #388E3C;background-color: #F3F3F3;}
 .allprod{padding: 50px 100px;background-color: #F8F3EF;}
 .row1-prods{display: flex;gap: 30px;}
-
-
+/* adding some ::highlight affects when suggested button is click */
+.highlight {
+  border: 3px solid #ff9800;
+  box-shadow: 0 0 15px rgba(255, 152, 0, 0.6);
+  transition: 0.3s;
+}
 @media screen and (max-width: 768px) {
     .allprod{padding: 50px;}
     .row1-prods{flex-direction: column;justify-content: center;align-items: center;}
